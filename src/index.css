@@ -1,0 +1,224 @@
+:root {
+  --cor-principal: #1b22a7;
+  --cor-secundaria: #4260e6;
+  --cor-texto-claro: #fafafa;
+  --cor-oferta: #e53935;
+  --cor-neutra: #6c757d;
+  --cor-fundo-alt: #f5f6fa;
+  --altura-menu: 72px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Secoes da landing: espacamento igual e compensacao do menu fixo */
+.secao {
+  padding: 64px 0;
+  scroll-margin-top: var(--altura-menu);
+}
+
+.secao-alt {
+  background-color: var(--cor-fundo-alt);
+}
+
+.titulo-secao {
+  color: var(--cor-principal);
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--cor-principal);
+}
+
+.nav-menu {
+  color: var(--cor-texto-claro);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.nav-menu:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Hero */
+.hero-texto {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
+  padding: 48px 0;
+}
+
+.hero-texto h1 {
+  font-weight: 700;
+}
+
+.btn-hero {
+  background-color: var(--cor-texto-claro);
+  color: var(--cor-principal);
+  border: 1px solid var(--cor-texto-claro);
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.btn-hero:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-claro);
+  border-color: var(--cor-texto-claro);
+}
+
+/* Cards */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-weight: 700;
+}
+
+.btn-produto {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-claro);
+  font-weight: 600;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid var(--cor-principal);
+  margin-top: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-produto:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
+  border-color: var(--cor-secundaria);
+}
+
+/* Ofertas */
+.card-oferta {
+  position: relative;
+  height: 100%;
+}
+
+.selo-desconto {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: var(--cor-oferta);
+  color: var(--cor-texto-claro);
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.preco-antigo {
+  color: var(--cor-neutra);
+  margin-bottom: 0;
+}
+
+.preco-oferta {
+  color: var(--cor-principal);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.tabela-ofertas thead th {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-claro);
+}
+
+/* Quem somos */
+.card-valor {
+  height: 100%;
+  border-top: 4px solid var(--cor-principal);
+}
+
+.numero-destaque {
+  color: var(--cor-principal);
+  font-weight: 700;
+}
+
+.tabela-horarios th {
+  color: var(--cor-principal);
+}
+
+/* Chamada final */
+.caixa-clube {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-claro);
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.btn-clube {
+  background-color: var(--cor-texto-claro);
+  color: var(--cor-principal);
+  border: 1px solid var(--cor-texto-claro);
+  font-weight: 600;
+}
+
+.btn-clube:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-claro);
+  border-color: var(--cor-texto-claro);
+}
+
+/* Rodape */
+.footer-site {
+  background-color: var(--cor-principal);
+  scroll-margin-top: var(--altura-menu);
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.rodape-link {
+  color: var(--cor-texto-claro);
+  text-decoration: none;
+}
+
+.rodape-link:hover {
+  color: var(--cor-texto-claro);
+  text-decoration: underline;
+}
+
+@media (max-width: 575.98px) {
+  .secao {
+    padding: 40px 0;
+  }
+
+  .caixa-clube {
+    padding: 24px;
+  }
+}
