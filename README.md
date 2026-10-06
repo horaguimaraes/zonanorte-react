@@ -11,7 +11,7 @@ Lucas Hora
 - Autor(a) do `index.html` original: Paulo Vinicius
 
 ## Site publicado
-_(colar o link do Netlify)_
+https://zonanorte-lucashora.netlify.app/
 
 ## Tecnologias
 React (Vite), Bootstrap 5, `useState` e `map()` para listas. As paginas originais ficam em `referencia-html/`.
