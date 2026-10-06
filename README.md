@@ -6,9 +6,9 @@ Parte 2 (individual) do trabalho de Desenvolvimento Frontend II (Turma 4169ADSN2
 Lucas Hora
 
 ## Origem
-- Repositorio do grupo (Parte 1): _(colar o link do repositorio do grupo)_
+- Repositorio do grupo (Parte 1): https://github.com/paulinhovini/Trabalho-Mercado
 - Paginas que fiz na Parte 1: `ofertas.html` e `sobre.html` (Quem Somos)
-- Autor(a) do `index.html` original: _(colar o nome do colega)_
+- Autor(a) do `index.html` original: Paulo Vinicius
 
 ## Site publicado
 _(colar o link do Netlify)_
