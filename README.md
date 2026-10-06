@@ -1,16 +1,34 @@
-# React + Vite
+# Mercado Zona Norte | Landing Page em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Parte 2 (individual) do trabalho de Desenvolvimento Frontend II (Turma 4169ADSN2A1).
 
-Currently, two official plugins are available:
+## Autor
+Lucas Hora
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Origem
+- Repositorio do grupo (Parte 1): _(colar o link do repositorio do grupo)_
+- Paginas que fiz na Parte 1: `ofertas.html` e `sobre.html` (Quem Somos)
+- Autor(a) do `index.html` original: _(colar o nome do colega)_
 
-## React Compiler
+## Site publicado
+_(colar o link do Netlify)_
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
+React (Vite), Bootstrap 5, `useState` e `map()` para listas. As paginas originais ficam em `referencia-html/`.
 
-## Expanding the Oxlint configuration
+## Como executar
+```
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Secoes da Landing Page
+| Secao | Origem |
+|---|---|
+| Navbar (menu unico, com ancoras) | index.html + paginas do grupo |
+| Hero (unico H1, botoes de oferta e WhatsApp) | index.html |
+| Destaques (produtos e banners) | index.html |
+| Ofertas da Semana (cards, filtro por desconto, tabela do hortifruti) | ofertas.html (minha pagina) |
+| Quem Somos (historia, valores, onde estamos) | sobre.html (minha pagina, secao extra) |
+| Chamada final (Clube Zona Norte) | ofertas.html (chamada para o clube) |
+| Rodape (unico, ancora #contato) | index.html + paginas do grupo |
